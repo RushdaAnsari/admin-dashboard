@@ -10,6 +10,22 @@
 }
 
 
+.sidebar{
+    background-color: var(--blue);
+    color: white;
+}
+
+button{
+    color: white;
+    font-weight: 500;
+    background-color: var(--blue);
+    border-radius: 18px;
+    width: 80px;
+    padding: 10px;
+    border: 1px solid var(--blue);
+
+}
+
 #icon{
     width: 20px;
     height: auto;
