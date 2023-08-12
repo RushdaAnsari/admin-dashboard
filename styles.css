@@ -9,10 +9,34 @@
     list-style: none;
 }
 
+body{
+    background-color: var(--grey);
+}
+
 
 .sidebar{
     background-color: var(--blue);
     color: white;
+}
+
+header{
+    background-color: white;
+}
+
+.card{
+    background-color: white;
+}
+
+.announcement{
+    background-color: white;
+}
+
+.title{
+    font-weight: 600;
+}
+
+.section{
+    font-weight: 600;
 }
 
 button{
@@ -21,13 +45,13 @@ button{
     background-color: var(--blue);
     border-radius: 18px;
     width: 80px;
-    padding: 10px;
+    padding: 8px;
     border: 1px solid var(--blue);
 
 }
 
 #icon{
-    width: 20px;
+    width: 25px;
     height: auto;
 }
 
