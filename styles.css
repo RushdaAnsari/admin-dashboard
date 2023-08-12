@@ -1,3 +1,27 @@
-body{
-    background-color: aquamarine;
+:root{
+    --blue: #0ea5e9;
+    --yellow: #fbbf24;
+    --grey: #e2e8f0;
+    --black: black;
+}
+
+*{
+    list-style: none;
+}
+
+
+#icon{
+    width: 20px;
+    height: auto;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+}
+
+.fa-github {
+    color: black;  
+    font-size: 24px;
+    transition: transform 0.3s ease-in-out;
 }
