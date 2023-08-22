@@ -18,6 +18,7 @@ html {
 
 body{
     background-color: var(--grey);
+    display: grid;
 }
 
 .container {
@@ -26,9 +27,7 @@ body{
 
 .container div {
   padding: 15px;
-  font-size: 18px;
   font-family: Helvetica;
-  font-weight: 600;
 }
 
 .sidebar{
@@ -86,28 +85,63 @@ header{
     justify-content: space-around;
 }
 
-.card{
-    background-color: #7E1DC3;
+
+.projects{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column: 1 / 3;
+    gap: 20px; 
     
 }
 
+.card{
+    background-color: var(--white);
+    border-radius: 10px;
+    color: black;
+}
+
+.card .title{
+    font-size: 15px;
+}
+
 .card p {
-    font-size: 18px;
+    font-size: 12px;
     font-family: sans-serif;
-    color: white;
     text-align: left;
 }
 
-.announcement{
-    background-color: rgb(115, 245, 121);
+.main{
+    display: grid;
 }
 
-.title{
+.announce-title{
+    grid-row-start: 1;
+    grid-column: 3 / 4;
     font-weight: 600;
 }
+
+.announcement{
+    grid-row-start: 2;
+    grid-column: 3 / 4;
+    font-size: 12px;
+}
+
+.news{
+    background-color: var(--white);
+    border-radius: 10px;
+}
+
 
 .section{
     font-weight: 600;
+    font-size: 18px;
+}
+
+
+.trending {
+    display: grid;
+    grid-template-columns: 0.2fr 1fr 3fr;
+    align-items: center;
 }
 
 button{
@@ -127,9 +161,19 @@ button{
     display: grid;
 }
 
-#logo{
-    width: 50px;
+.share{
+    display: inline-flex;
+    float: right;
+    gap: 30px;
+}
+
+#user{
+    width: 35px;
     height: auto;
+}
+
+span{
+    color: rgb(115, 113, 113);
 }
 
 footer {
