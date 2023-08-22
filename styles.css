@@ -180,6 +180,10 @@ button{
     height: auto;
 }
 
+a{
+    text-decoration: none;
+    color: var(--white);
+}
 
 footer {
     background-color: #cbced6;
