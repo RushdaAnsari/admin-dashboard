@@ -132,6 +132,14 @@ header{
 }
 
 
+.bold{
+    font-weight: 600;
+}
+
+span{
+    color: rgb(115, 113, 113);
+}
+
 .section{
     font-weight: 600;
     font-size: 18px;
@@ -172,9 +180,6 @@ button{
     height: auto;
 }
 
-span{
-    color: rgb(115, 113, 113);
-}
 
 footer {
     background-color: #cbced6;
