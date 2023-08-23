@@ -98,6 +98,7 @@ header{
     background-color: var(--white);
     border-radius: 10px;
     color: black;
+    border-left: 8px solid #fbbf24;
 }
 
 .card .title{
@@ -150,6 +151,7 @@ span{
     display: grid;
     grid-template-columns: 0.2fr 1fr 3fr;
     align-items: center;
+    border: none;
 }
 
 button{
